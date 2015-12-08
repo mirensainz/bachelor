@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: lightgrey;
+}
+.header{
+    
+    background: #282828;
+    width: 100vw;
+    height: 7vh;
+}
+.experimentContainer{
+	text-align: center;
+	width: 100vw;
+	height: 93vh;
+	cursor: default;
+}
+
+.pictureContainer{
+	margin-left: 3vw;
+	margin-top: 3vh;	
+	width: 47vw;
+	height: 85vh;
+    float:left;
+	position: relative;
+	text-align: left;
+}
+#annotation-div{
+	top:0;
+	left:0;
+	position: absolute;
+	height:85vh;
+	
+}
+#tools-div{
+	width: 30vw;
+	height: 78vh;
+	margin-top: 10vh;
+	margin-left: 10vw;
+	float: left;
+}
+
+
+#original-picture img {
+	height:85vh;
+	width:auto;
+}
+#heatMap img {
+	height:85vh;
+	width: auto;
+	opacity: 0.6;
+}
+#button-next{
+	float: right;
+}
+.dropdown{
+	float:left;
+}
+#show-results{
+	float: right;
+}
